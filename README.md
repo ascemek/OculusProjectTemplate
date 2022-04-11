@@ -15,3 +15,10 @@ Make sure to check out the following links.
 
 Add Oculus Quest Controllers and Grab Objects in Unity - https://youtu.be/WJWT-Ctur3Y
 Oculus Quest Development Adding an OVR Controller in Unity - https://youtu.be/xmzAeNX1YuM
+
+Update: 04/11/22
+Just to clarify, the object that you need to interact with needs to have three components:
+-  Rigidbody
+-  Any kind of collider
+   (if you are using mesh collider make sure to enable Convex checkbox)
+-  OVR Grabber script (This is part of the Oculus Integration Package)
